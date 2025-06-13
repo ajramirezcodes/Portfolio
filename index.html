@@ -1,0 +1,116 @@
+ <!DOCTYPE html>
+ <html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, inital-scale=1.0"/>
+        <link rel="stylesheet" href="styles.css"/>
+        <title>Personal Portfolio</title>
+    </head>
+    <body>
+        <div class="header">
+            <img class="logo" src="./logo-transparent.png" alt="andrew ramirez logo"/>
+            <nav>
+                <ul id="nav-list">
+                    <li class="nav-item"><a href="#about-me">About Me</a></li>
+                    <li class="nav-item"><a href="#career-path">Career Path</a></li>
+                    <li class="nav-item"><a href="#my-projects">My Projects</a></li>
+                    <li class="nav-item"><a href="#contact-me">Contact Me</a></li>
+                    <li class="nav-item"><a>My Resume</a></li> 
+                </ul>
+            </nav>
+        </div>
+        <div class="intro">
+            <p>Hi, my name is</p>
+            <h1>Andrew Ramirez (<span>AJ</span>)</h1>
+            <h2>Built from the ground up: developer by grit, driven by growth.</h2>
+            <p>Self taught and highly motivated software developer with a strong foundation in <span>HTML, CSS, Javascript, and React</span>. I build projects focused on <span>usability, interactivity, and clean UI </span>. My career background in data analytics brings a detail-oriented mindset to code. Seeking to leverage both technical and analytical skills in a developer role.</p>
+        </div>
+        <h3 id="about-me">About Me</h3>
+        <hr/>
+        <div id="about">
+            <p>I'm a former data analyst with four years of experience turning numbers into insights for both a national electronics company and a nonprofit organization in New York. My work focused on inventory, sales, attendance, and profit trends. Over time, I realized my passion wasn’t just in interpreting data, but in <span>building tools and interfaces</span> that made that <span>data useful, interactive, and accessible</span>.That curiosity led me into <span>software development</span>, where I now focus on <span>front-end development using JavaScript, HTML, and CSS</span>. I'm passionate about creating clean, user-friendly experiences that solve real problems—plus I love the challenge of bringing my ideas to life through code.</p>
+            <img src="./IMG_1411.jpg"/>
+        </div>
+        <h3 id="career-path">Career Path</h3>
+        <hr/>
+        <div id="career">
+            <nav>
+            <ul id="careerList">
+                <li data-index="0">???</li>
+                <li data-index="1">Archdiocese of New York</li>
+                <li data-index="2">Shine Electronics</li>
+                <li data-index="3">VWU Graduate</li>
+            </ul>
+            </nav>
+            <div id="careerDescription"></div>
+        </div>
+        <h3 id="my-projects">My Projects</h3>
+        <hr/>
+        <div id="projects">
+            <h4>To-Do List</h4>
+            <div class="project-1" id="project-1"> 
+                <div>
+                <p>Helps users stay organized by allowing them to easily add, delete, and manage tasks, making daily to-do lists more efficient and streamlined.</p>
+                <ul id="features1">
+                    <li class="feature-item1"><span class="icon">🔹</span>Add new tasks</li>
+                    <li class="feature-item1"><span class="icon">🔹</span>Delete tasks</li>
+                    <li class="feature-item1"><span class="icon">🔹</span>Tasks are saved in the browser using JSON storage</li>
+                    <li class="feature-item1"><span class="icon">🔹</span>Optimized for seamless use on both mobile devices and desktop screens</li>
+                </ul>
+                </div>
+                <a href="https://ajramirezcodes.github.io/To-Do-List/" target="_blank"><img src="./To_Do_List.png"/ alt="pic of to-do list"></a>
+            </div>
+            <h4>Weather App</h4>
+             <div class="project-2" id="project-2">
+                <a href="https://ajramirezcodes.github.io/Weather-App/" target="_blank"><img/ src="./Weather_App.png" alt="pic of weather app"></a>
+                <div>    
+                <p>This application allows users to search for current weather conditions in any city using real-time data from the OpenWeatherMap API.</p>
+                <ul id="features2">
+                    <li class="feature-item2"><span class="icon">🔹</span>Search weather by city name</li>
+                    <li class="feature-item2"><span class="icon">🔹</span>View temperature, humidity, wind speed, etc.</li>
+                    <li class="feature-item2"><span class="icon">🔹</span>Optional geolocation support to show local weather</li>
+                    <li class="feature-item2"><span class="icon">🔹</span>Responsive design for mobile and desktop</li>
+                    <li class="feature-item2"><span class="icon">🔹</span>Minimal, user-friendly interface</li>
+                </ul>
+                </div>
+            </div>
+            <h4>Budget Tracker</h4>
+             <div class="project-3" id="project-3">
+                <div>
+                <p>Users can set a budget, add categories and expenses, and view total spending and remaining balance. Expenses are sortable by category for easy tracking.</p>
+                <ul id="features3">
+                    <li class="feature-item3"><span class="icon">🔹</span>Add a total budget and track remaining balance in real time</li>
+                    <li class="feature-item3"><span class="icon">🔹</span>Select custom categories for expenses</li>
+                    <li class="feature-item3"><span class="icon">🔹</span>Input expenses with descriptions and categorize them</li>
+                    <li class="feature-item3"><span class="icon">🔹</span>View and sort expenses by category for clear insights</li>
+                    <li class="feature-item3"><span class="icon">🔹</span>Fully responsive design using HTML, CSS, and JavaScript</li>
+                </ul>
+                </div>
+                <a href="https://ajramirezcodes.github.io/Budget-Tracker/" target="_blank"><img src="./Budget_Tracker.png" alt="pic of budget tracker"/></a>
+            </div>
+            <h4>Hotel Website</h4>
+             <div class="project-4" id="project-4">
+                <a href="https://ajramirezcodes.github.io/Hotel-Website/index.html" target="_blank"><img src="./Hotel.png" alt="pic of hotel page"/></a>
+                <div>
+                <p>A hotel website that provides users with information about the hotel, room options, amenities, and booking details.</p>
+                <ul id="features4">
+                    <li class="feature-item4"><span class="icon">🔹</span>Homepage with hotel overview and images</li>
+                    <li class="feature-item4"><span class="icon">🔹</span>Rooms and pricing section</li>
+                    <li class="feature-item4"><span class="icon">🔹</span>Amenities and services descriptions</li>
+                    <li class="feature-item4"><span class="icon">🔹</span>Contact form for inquiries (static, no backend)</li>
+                    <li class="feature-item4"><span class="icon">🔹</span>Smooth navigation and user-friendly interface</li>
+                </ul>
+                </div>
+            </div>
+        </div>
+        <h3 id="contact-me">Contact Me</h3>
+        <hr />
+        <div id="contact">
+            <a href="https://github.com/ajramirezcodes" target="_blank"><img src="https://img.icons8.com/?size=100&id=52539&format=png&color=000000" alt="github logo"/></a>
+            <a href="mailto:ajramirez111@gmail.com" target="_blank"><img src="https://img.icons8.com/?size=100&id=48165&format=png&color=000000" alt="gmail logo"/></a>
+            <a href="https:www.linkedin.com/in/andrew-ramirez-268ab1150/" target="_blank"><img src="https://img.icons8.com/?size=100&id=44019&format=png&color=000000" alt="linkedin logo"/></a>
+            <a href="" target="_blank"><img src="https://img.icons8.com/?size=100&id=44834&format=png&color=000000" alt="resume-logo"/></a>
+        </div>
+    <script src="script.js"></script>
+    </body>
+ </html>
