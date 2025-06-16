@@ -62,7 +62,7 @@ let careerArr = [
         company: "Virginia Wesleyan University",
         timeFrame: "August 2015 - May 2019",
         duties: [ 
-            "Obtained a Bachelors in Business Management", 
+            "Obtained a Bachelors in Business Management at a private institution", 
             "Worked in multiple internships regarding Sales, Business Operations, and Marketing", 
             "Completed senior capstone on data-driven decision making"
             ],
@@ -89,7 +89,7 @@ let careerArr = [
         setTimeout(() => {
             
             careerDescription.innerHTML = `
-                <h4 class="item-title">${item.title} @ <span class="career-span">${item.company}</span></h4>
+                <h4 class="item-title">${item.title} @ ${item.company}</h4>
                 <p class="item-time">${item.timeFrame}</p>
                 <ul>
                     ${item.duties.map((duty) => `<li class="item-duty"><span class="icon">🔹</span>${duty}</li>`).join("")}
@@ -149,3 +149,9 @@ project2.addEventListener("mouseover", () => {
             }, index * 400)
         });
     });
+
+
+
+
+
+
