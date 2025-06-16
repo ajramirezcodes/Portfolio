@@ -401,7 +401,7 @@ h4 {
 @media (max-width: 1050px) { 
 
 
-{} .project-1, .project-2, .project-3, .project-4 {
+.project-1, .project-2, .project-3, .project-4 {
         flex-direction: column;
         margin: 2rem auto;
         text-align: center;
