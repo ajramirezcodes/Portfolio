@@ -403,6 +403,24 @@ h4 {
     text-align: center;
 }
 
+  .header nav ul {
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+    margin-right: 2rem;
+    padding: 0 2rem 0 0;
+    font-size: 16px;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.logo {
+    height: 110px;
+    width: 110px;
+}
+
+
 }
 
 
