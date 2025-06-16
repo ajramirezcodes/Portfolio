@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 
+
 html {
   scroll-behavior: smooth;
 }
@@ -13,8 +14,10 @@ body {
     background-color: #fff9f2;
     color: #2b2b2b;
     font-family: 'Poppins', sans-serif;
+    width: 100%;
 
 }
+
 
 .header {
     background-color: #4a6fa5;
@@ -65,7 +68,9 @@ body {
 }
 
 .intro {
-    margin: 15rem 0 15rem 25rem;
+    margin: 15rem auto;
+    padding: 0 4rem;
+    max-width: 800px;
 }
 
 .intro h1 {
@@ -80,7 +85,6 @@ body {
 .intro p {
     margin: 2rem 0;
     line-height: 175%;
-    width: 50%;
 }
 
 span {
@@ -88,23 +92,24 @@ span {
 }
 
 #about {
-    margin: 0 0 10rem 25rem; 
+    margin: 0 auto 10rem 20rem; 
     width: 50%;
     display: flex;
+    align-items: center;
+    flex-wrap: wrap;
     gap: 2rem;
 }
 
 #about-me {
     font-size: 25px;
-    margin: 25rem 0 0 25rem; 
-    width: 50%;
+    margin: 25rem auto 0 20rem; 
     display: flex;
 }
 
 #about p {
     margin: 2rem 0;
     line-height: 175%;
-    flex: 1;
+    flex: 1 1 75%;
 }
 
 
@@ -120,20 +125,18 @@ span {
 
 hr {
     width: 25%;
-    margin: 1rem 0 0 25rem;
+    margin: 1rem 0 0 20rem;
     border: 1px solid #4a6fa5;
 }
 
 #career-path {
     font-size: 25px;
-    margin: 25rem 0 0 25rem; 
-    width: 50%;
+    margin: 25rem 0 0 20rem; 
     display: flex;
 }
 
 #career {
-    margin: 0 0 10rem 25rem; 
-    width: 50%;
+    margin: 0 0 10rem 20rem; 
     display: flex;
     gap: 2rem;
 }
@@ -189,35 +192,34 @@ hr {
 
 .career-span {
     color: #4a6fa5;
-    margin: 0 0 0 .5rem;
 }
 
 .icon {
-  margin-right: 15px; /* adjust spacing */
+  margin-right: 15px;
   display: inline-block; /* so margin applies properly */
 }
 
 #my-projects {
     font-size: 25px;
-    margin: 25rem 0 0 25rem;
+    margin: 25rem 0 0 20rem;
 }
 
+
+
 .project-1, .project-2, .project-3, .project-4 {
-    margin: 0 0 10rem 25rem; 
-    width: 55%;
     display: flex;
-    gap: 10rem;
+    gap: 2rem;
 }
 
 h4 {
-    margin: 3rem 0 2rem 25rem;
+    margin: 3rem 0 2rem 20rem;
     display: flex;
     font-size: 20px;
     color: #ff6b35;
 }
 
 .project-1 p, .project-2 p, .project-3 p, .project-4 p {
-    margin: 1rem 0;
+    margin: 1rem 0 1rem 20rem;
     line-height: 175%;
 }
 
@@ -230,6 +232,7 @@ h4 {
 .project-1 ul, .project-2 ul, .project-3 ul, .project-4 ul {
   list-style: none;
   line-height: 200%;
+   margin: 1rem 0 1rem 20rem;
 }
 
 
@@ -242,6 +245,7 @@ h4 {
     align-self: center;
     border-radius: 10px;
     transition: transform 0.5s ease;
+    margin: 0 30rem 0 0;
 }
 
 .project-1 img:hover, .project-2 img:hover, .project-3 img:hover, .project-4 img:hover {
@@ -252,8 +256,7 @@ h4 {
 
 #contact-me {
     font-size: 25px;
-    margin: 25rem 0 0 25rem; 
-    width: 50%;
+    margin: 25rem 0 0 20rem; 
     display: flex;
 }
 
@@ -282,3 +285,155 @@ h4 {
 
 
 
+
+@media (max-width: 850px) {
+    
+    .intro h1 {
+        font-size: 35px;
+    }
+    .intro h2 {
+        font-size: 24px;
+    }
+    .intro p {
+        margin: 1rem 0;
+        font-size: 16px;
+    }
+
+     #about, #about-me, hr {
+        flex-direction: column;
+        text-align: center;
+        margin: .5rem auto;
+    }
+
+    #about-me {
+        font-size: 22px;
+    }
+
+
+    #about p {
+        flex: 1 1 100%;
+        margin-bottom: 2rem;
+    } 
+    #about img {
+        flex: 1 1 100%;
+        margin-bottom: 2rem;
+        max-width: 200px;
+        height: 250px;
+    }
+    #career-path {
+        flex-direction: column;
+        text-align: center;
+        margin: 10rem 0 0 0;
+        font-size: 22px;
+    }
+
+    #career {
+        flex-direction: column;
+        margin: 0 1rem 2rem 1rem;
+    }
+    #career ul {
+        display: flex;
+        overflow-x: scroll;
+        gap: 1rem;
+        padding-bottom: 1rem;
+    }
+    #career ul::-webkit-scrollbar {
+        display: none;
+    }
+    #career ul li {
+        justify-content: space-evenly;
+        align-items: center;
+        text-align: center;
+    }
+     #careerDescription {
+        margin: 1rem 0 2rem 0;
+        padding: 1rem;
+    }
+
+    #careerDescription ul {
+        display: block;
+        padding: 0;
+        margin: 2rem 0;
+    }
+
+    .item-title {
+        margin: 0 0 0.5rem 0;
+        font-size: 16px;
+        display: inline-block;
+    }
+    .item-time {
+        margin: 0 0 0.5rem 0;
+        font-size: 14px;
+        display: block;
+    }
+    .item-duty {
+        display: inline-flex;
+        margin: 0 auto 2rem auto;
+        font-size: 14px;
+   
+}
+    .icon {
+        align-items: center;
+}
+
+#my-projects {
+        flex-direction: column;
+        text-align: center;
+        margin: 10rem 0 0 0;
+        font-size: 22px;
+}
+
+
+#contact-me {
+        flex-direction: column;
+        text-align: center;
+        margin: 5rem 0 0 0;
+        font-size: 22px;
+}
+
+}
+
+
+
+
+
+
+@media (max-width: 1050px) { 
+
+
+{} .project-1, .project-2, .project-3, .project-4 {
+        flex-direction: column;
+        margin: 2rem auto;
+        text-align: center;
+    }
+    #projects  h4 {
+        font-size: 18px;
+        text-align: center;
+        margin: 4rem auto 2rem auto;
+        display: block;
+    }
+
+    .project-1 p, .project-2 p, .project-3 p, .project-4 p {
+        margin: 0 auto 2rem auto;
+        text-align: center;
+    }
+    .project-1 img, .project-2 img, .project-3 img, .project-4 img {
+        max-width: 100%;
+        align-self: center;
+        margin: 0 auto 15rem auto;
+    }
+
+    #features1, #features2, #features3, #features4 {
+        display: block;
+        padding: 0;
+        margin: 2rem 0;
+    }
+
+    .feature-item1, .feature-item2, .feature-item3, .feature-item4 {
+        display: inline-block;
+        margin: 0 auto 2rem auto;
+        font-size: 16px;
+    }
+
+
+}
