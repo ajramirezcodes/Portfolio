@@ -1,6 +1,6 @@
 # Personal Portfolio Website
 
-This is a responsive personal portfolio website built with **HTML**, **CSS**, and **JavaScript**. It showcases my projects, background, resume, and contact information.
+This is my personal portfolio, it showcases my projects, background, resume, and contact information.
 
 ## Features
 
@@ -21,6 +21,3 @@ This is a responsive personal portfolio website built with **HTML**, **CSS**, an
 
 [Click here to view the live site](https://ajramirezcodes.github.io/Portfolio/)
 
-## How to Use
-
-1. Clone the repository:
