@@ -316,7 +316,7 @@ h4:nth-of-type(2), h4:nth-of-type(3), h4:nth-of-type(4), h4:nth-of-type(5) {
 
 
 
-@media (max-width: 850px) {
+@media (max-width: 1400px) { 
     
     .intro h1 {
         font-size: 35px;
@@ -341,14 +341,17 @@ h4:nth-of-type(2), h4:nth-of-type(3), h4:nth-of-type(4), h4:nth-of-type(5) {
 
 
     #about p {
-        flex: 1 1 100%;
+        margin: 0 auto 2rem auto;
+        text-align: center;
         margin-bottom: 2rem;
+        padding: 2rem 2rem;
     } 
     #about img {
-        flex: 1 1 100%;
-        margin-bottom: 2rem;
         max-width: 200px;
         height: 250px;
+        max-width: 100%;
+        align-self: center;
+        margin: 0 auto 10rem auto;
     }
     #career-path {
         flex-direction: column;
@@ -359,25 +362,32 @@ h4:nth-of-type(2), h4:nth-of-type(3), h4:nth-of-type(4), h4:nth-of-type(5) {
 
     #career {
         flex-direction: column;
-        margin: 0 1rem 2rem 1rem;
+        margin: 2rem auto;
+        justify-content: center;
+        display: flex;
     }
     #career ul {
         display: flex;
         overflow-x: scroll;
         gap: 1rem;
         padding-bottom: 1rem;
+        font-size: 16px;
     }
     #career ul::-webkit-scrollbar {
         display: none;
     }
     #career ul li {
-        justify-content: space-evenly;
-        align-items: center;
+        justify-content: center;
         text-align: center;
+        font-size: 17px;
+        padding-right: 6rem;
     }
      #careerDescription {
-        margin: 1rem 0 2rem 0;
+        margin: -7rem 0 2rem 0;
         padding: 1rem;
+        display: flex;
+        flex-direction: column;
+
     }
 
     #careerDescription ul {
@@ -393,17 +403,18 @@ h4:nth-of-type(2), h4:nth-of-type(3), h4:nth-of-type(4), h4:nth-of-type(5) {
     }
     .item-time {
         margin: 0 0 0.5rem 0;
-        font-size: 14px;
+        font-size: 16px;
         display: block;
     }
     .item-duty {
         display: inline-flex;
         margin: 0 auto 2rem auto;
-        font-size: 14px;
-   
 }
+
     .icon {
         align-items: center;
+        justify-content: center;
+        margin: 0 auto 2rem auto;
 }
 
 #my-projects {
@@ -451,49 +462,36 @@ h4:nth-of-type(2), h4:nth-of-type(3), h4:nth-of-type(4), h4:nth-of-type(5) {
 }
 
 
-}
-
-
-
-
-
-
-@media (max-width: 1050px) { 
-
-
-.project-1, .project-2, .project-3, .project-4 {
+.project-1, .project-2, .project-3, .project-4, .project-5 {
         flex-direction: column;
-        margin: 2rem auto;
         text-align: center;
+        margin: 0 1rem 2rem 1rem;
     }
+
+.project-1 ul, .project-2 ul, .project-3 ul, .project-4 ul, .project-5 ul {
+        display: block;
+        margin: 0 auto 2rem auto;
+    }
+
     #projects  h4 {
-        font-size: 18px;
+        font-size: 22px;
         text-align: center;
         margin: 4rem auto 2rem auto;
         display: block;
     }
 
-    .project-1 p, .project-2 p, .project-3 p, .project-4 p {
+    .project-1 p, .project-2 p, .project-3 p, .project-4 p, .project-5 p {
         margin: 0 auto 2rem auto;
         text-align: center;
+        margin-bottom: 2rem;
+        padding: 2rem 4rem;
     }
-    .project-1 img, .project-2 img, .project-3 img, .project-4 img {
+    .project-1 img, .project-2 img, .project-3 img, .project-4 img, .project-5 img {
         max-width: 100%;
         align-self: center;
         margin: 0 auto 15rem auto;
     }
 
-    #features1, #features2, #features3, #features4 {
-        display: block;
-        padding: 0;
-        margin: 2rem 0;
-    }
-
-    .feature-item1, .feature-item2, .feature-item3, .feature-item4 {
-        display: inline-block;
-        margin: 0 auto 2rem auto;
-        font-size: 16px;
-    }
 
 
 }
