@@ -1,497 +1,136 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
 }
-
 
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
+    height: 100%;
+    margin: 0;
 }
-
 
 body {
-    background-color: #fff9f2;
-    color: #2b2b2b;
-    font-family: 'Poppins', sans-serif;
-    width: 100%;
-
-}
-
-
-.header {
-    background-color: #4a6fa5;
-    height: 6rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 2rem;
-}
-
-.header nav {
-    display: flex;
-    justify-content: flex-end;
-}
-
-.header nav ul {
-    display: flex;
-    gap: 2rem;
-    list-style: none;
+   
+    font-family:  Poppins, sans-serif;
+    padding: 20px 20px 20px 0px;
+    height: 100%;
     margin: 0;
-    padding: 0 2rem 0 0;
-    font-size: 20px;
-    align-items: center;
-}
 
-.header nav li a {
-    text-decoration: none;
-    color: #f2f2f2;
-}
 
-.header nav li a:hover {
-    color: #000000;
-}
 
-.nav-item {
-  opacity: 0;
-  transition: opacity 0.4s ease, transform 0.4s ease;
-}
 
-.nav-item.show {
-  opacity: 1;
+background: linear-gradient(to right,
+  #0c4a66 0%,
+  #1f4068 20%,
+  #163a56 50%,     /* brighter middle */
+  #1f4068 80%,
+  #0c4a66 100%
+);
+
+
+
+
+
+
 }
 
 
-.logo {
-    height: 125px;
-    width: 125px;
+
+
+
+
+
+h1 {
+    color: #ffffff;
+
 }
 
-.intro {
-    margin: 15rem auto;
-    padding: 0 4rem;
-    max-width: 800px;
+h2 {
+    color: #ffffff;
+    margin: 0 auto 1rem auto;
 }
 
-.intro h1 {
-    font-size: 60px;
-    margin: 0 0 1rem 0;
+h3 {
+    color: #9fb3c8;
+    font-size: 16px !important;
+    margin-top: 1rem !important;
 }
 
-.intro h2 {
-    font-size: 30px;
+
+
+nav  {
+    margin: 5rem auto 20rem auto;
 }
 
-.intro p:nth-of-type(1) {
-    margin: 2rem 0;
-    font-size: 24px;
+
+nav li  {
+    color: #ffffff;
+    opacity: 0.6;
+    transition: opacity 0.3s ease;
 }
 
-.intro p:nth-of-type(2) {
-    margin: 2rem 0;
-    line-height: 200%;
-    font-size: 20px;
+
+nav li span:hover, nav li:hover {
+    opacity: 1;
 }
 
-span {
-    color: #ff6b35;
+
+#links a img {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+    opacity: 0.5;
+    transition: opacity 0.3s ease;
 }
+
+#links a img:hover {
+    opacity: 1;
+}
+
+
 
 #about {
-   display: flex;
-
-}
-
-#about-me {
-    font-size: 30px;
-    margin: 35rem auto 0 25rem; 
-    display: flex;
-}
-
-#about p {
-    flex: 1;
-    margin: 4rem 0 0 25rem;
-    line-height: 200%;
-    padding: 0 30rem 0 0;
-    font-size: 18px;
+    color: #9fb3c8;
+    font-size: 16px !important;
+    padding: 2rem 0 2rem 1.5rem;
+    line-height: 1.5;
+    margin-bottom: 6rem;
 }
 
 
-#about img {
-    max-width: 300px;
-    max-height: 500px;
-    display: flex;
-    flex: 2;
-    align-self: center;
-    border-radius: 10px;
-    transition: transform 0.5s ease;
-    margin: 0 40rem 0 0;
-    box-shadow: 6px 12px #ff6b35;
-    object-fit: cover;
-}
-
-hr {
-    width: 25%;
-    margin: 1rem 0 0 25rem;
-    border: 1px solid #4a6fa5;
-}
-
-#career-path {
-    font-size: 30px;
-    margin: 35rem 0 0 25rem; 
-    display: flex;
-}
-
-#career {
-    margin: 0 0 10rem 25rem; 
-    display: flex;
-    gap: 2rem;
-    font-size: 20px;
-}
-
-#career ul {
-    margin: 2rem 0;
-    text-decoration: none;
-    list-style: none;
-   
-}
-
-#career nav ul li {
-    margin: 1rem 0 1rem 0;
-    cursor: pointer;
-    padding: 1rem; 
-    transition: background-color 0.2s ease;
-    border-radius: 5px;
-}
-
-#career nav ul li.selected {
-    margin: 1rem 0 1rem 0;
-    background-color: #ff6b35;
-    color: #fff9f2;
-    padding: 1rem;
-    border-radius: 5px;
-}
-
-
-#careerDescription {
-    margin: -5rem 0 .5rem 40rem;
-    opacity: 0;
-    transition: opacity 0.4s ease-in-out;
-}
-
-#careerDescription.show {
-    opacity: 1;
-}
-
-.item-title, .item-company {
-    margin: 0 0 .5rem 1rem;
-    font-size: 25px;
-    color: #4a6fa5;
-}
-
-
-.item-time {
-    margin: .5rem 0 .5rem 1rem;
-    font-size: 20px;
-}
-
-.item-duty {
-     margin: 1rem 0 .5rem 1rem;
-     font-size: 20px;
-}
-
-
-.career-span {
-    color: #4a6fa5;
-}
-
-.icon {
-  margin-right: 15px;
-  display: inline-block; /* so margin applies properly */
-}
-
-#my-projects {
-    font-size: 30px;
-    margin: 35rem 0 0 25rem;
-}
-
-
-
-.project-1, .project-2, .project-3, .project-4, .project-5 {
-    display: flex;
-    gap: 2rem;
-}
-
-
-h4 {
-    margin: 3rem 0 2rem 25rem;
-    display: flex;
-    font-size: 25px;
-    color: #ff6b35;
-}
-
-h4:nth-of-type(1) {
-    margin-top: 7rem;
-}
-
-h4:nth-of-type(2), h4:nth-of-type(3), h4:nth-of-type(4), h4:nth-of-type(5) {
-    margin-top: 25rem;
-}
-
-.project-1 p, .project-2 p, .project-3 p, .project-4 p, .project-5 p {
-    margin: 1rem 0 1rem 25rem;
-    line-height: 175%;
-    font-size: 20px;
-    padding: 0 30rem 0 0;
-}
-
-.project-1  div, .project-2 div, .project-3 div, .project-4 div, .project-5 div {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-}
-
-.project-1 ul, .project-2 ul, .project-3 ul, .project-4 ul, .project-5 ul {
-  list-style: none;
-  line-height: 200%;
-  margin: 1rem 0 1rem 25rem;
-  font-size: 18px;
-}
-
-
-
-.project-1 img, .project-2 img, .project-3 img, .project-4 img, .project-5 img {
-    width: 350px;
-    height: 600px;
-    display: flex;
-    flex: 2;
-    align-self: center;
-    border-radius: 10px;
-    transition: transform 0.5s ease;
-    margin: -7rem 30rem 0 0;
-    object-fit: cover;
-    border: 4px solid #ff6b35;
+#problems, #projects, #career {
+    color: #9fb3c8;
+    font-size: 16px !important;
+    padding: 2rem 0 2rem 1.5rem;
+    line-height: 1.5;
+    margin-bottom: 8rem;
 }
 
 
 
 
 
-.project-1 img:hover, .project-2 img:hover, .project-3 img:hover, .project-4 img:hover, .project-5 img:hover {
-    transform: scale(1.1);
-}
-
-
-
-#contact-me {
-    font-size: 30px;
-    margin: 25rem 0 0 25rem; 
-    display: flex;
-}
-
-#contact {
-    display: flex;
-    justify-content: space-evenly;
-    margin: 5rem auto;
-    align-items: center;
-    text-align: center;
-}
-
-#contact img {
-    width: 60px;
-    height: 60px;
-}
-
-
-.feature-item1, .feature-item2, .feature-item3, .feature-item4 {
-    opacity: 0;
-    transition: opacity 0.4s ease, transform 0.4s ease;
-    font-size: 18px;
-}
-
-.feature-item1.show, .feature-item2.show, .feature-item3.show, .feature-item4.show {
-    opacity: 1;
-}
-
-
-
-
-@media (max-width: 1400px) { 
+#career button {
+    color: #8b0000;
+    border-radius: 9999px;
+    font-size: 12px;
+    padding: 5px 10px;
+    background-color: #e76236;
     
-    .intro h1 {
-        font-size: 35px;
-    }
-    .intro h2 {
-        font-size: 24px;
-    }
-    .intro p {
-        margin: 1rem 0;
-        font-size: 16px;
-    }
-
-     #about, #about-me, hr {
-        flex-direction: column;
-        text-align: center;
-        margin: .5rem auto;
-    }
-
-    #about-me {
-        font-size: 22px;
-    }
-
-
-    #about p {
-        margin: 0 auto 2rem auto;
-        text-align: center;
-        margin-bottom: 2rem;
-        padding: 2rem 2rem;
-    } 
-    #about img {
-        max-width: 200px;
-        height: 250px;
-        max-width: 100%;
-        align-self: center;
-        margin: 0 auto 10rem auto;
-    }
-    #career-path {
-        flex-direction: column;
-        text-align: center;
-        margin: 10rem 0 0 0;
-        font-size: 22px;
-    }
-
-    #career {
-        flex-direction: column;
-        margin: 2rem auto;
-        justify-content: center;
-        display: flex;
-    }
-    #career ul {
-        display: flex;
-        overflow-x: scroll;
-        gap: 1rem;
-        padding-bottom: 1rem;
-        font-size: 16px;
-    }
-    #career ul::-webkit-scrollbar {
-        display: none;
-    }
-    #career ul li {
-        justify-content: center;
-        text-align: center;
-        font-size: 17px;
-        padding-right: 6rem;
-    }
-     #careerDescription {
-        margin: -7rem 0 2rem 0;
-        padding: 1rem;
-        display: flex;
-        flex-direction: column;
-
-    }
-
-    #careerDescription ul {
-        display: block;
-        padding: 0;
-        margin: 2rem 0;
-    }
-
-    .item-title {
-        margin: 0 0 0.5rem 0;
-        font-size: 16px;
-        display: inline-block;
-    }
-    .item-time {
-        margin: 0 0 0.5rem 0;
-        font-size: 16px;
-        display: block;
-    }
-    .item-duty {
-        display: inline-flex;
-        margin: 0 auto 2rem auto;
 }
 
-    .icon {
-        align-items: center;
-        justify-content: center;
-        margin: 0 auto 2rem auto;
-}
-
-#my-projects {
-        flex-direction: column;
-        text-align: center;
-        margin: 10rem 0 0 0;
-        font-size: 22px;
+#projects button {
+    color: #8b0000;
+    border-radius: 9999px;
+    font-size: 12px;
+    padding: 5px 10px;
+    background-color: #e76236
 }
 
 
-#contact-me {
-        flex-direction: column;
-        text-align: center;
-        margin: 5rem 0 0 0;
-        font-size: 22px;
-}
-
-  .header nav ul {
-    display: flex;
-    gap: 2rem;
-    list-style: none;
-    margin: 0;
-    padding: 0 2rem 0 0;
-    font-size: 14px;
-    align-items: center;
-    justify-content: space-evenly;
-    text-align: center;
-}
-
-  .header nav ul {
-    display: flex;
-    gap: 1rem;
-    list-style: none;
-    margin-right: 2rem;
-    padding: 0 2rem 0 0;
-    font-size: 16px;
-    align-items: center;
-    justify-content: space-evenly;
-    text-align: center;
-}
-
-.logo {
-    height: 110px;
-    width: 110px;
-}
-
-
-.project-1, .project-2, .project-3, .project-4, .project-5 {
-        flex-direction: column;
-        text-align: center;
-        margin: 0 1rem 2rem 1rem;
-    }
-
-.project-1 ul, .project-2 ul, .project-3 ul, .project-4 ul, .project-5 ul {
-        display: block;
-        margin: 0 auto 2rem auto;
-    }
-
-    #projects  h4 {
-        font-size: 22px;
-        text-align: center;
-        margin: 4rem auto 2rem auto;
-        display: block;
-    }
-
-    .project-1 p, .project-2 p, .project-3 p, .project-4 p, .project-5 p {
-        margin: 0 auto 2rem auto;
-        text-align: center;
-        margin-bottom: 2rem;
-        padding: 2rem 4rem;
-    }
-    .project-1 img, .project-2 img, .project-3 img, .project-4 img, .project-5 img {
-        max-width: 100%;
-        align-self: center;
-        margin: 0 auto 15rem auto;
-    }
 
 
 
+@media (min-width: 1024px) {
+   
 }
