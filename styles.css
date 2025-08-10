@@ -1,0 +1,197 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+    height: 100%;
+    margin: 0;
+}
+
+body {
+   
+    font-family:  Poppins, sans-serif;
+    padding: 20px 20px 20px 0px;
+    height: 100%;
+    margin: 0;
+
+
+
+
+background: linear-gradient(to right,
+  #0c4a66 0%,
+  #1f4068 20%,
+  #163a56 50%,     /* brighter middle */
+  #1f4068 80%,
+  #0c4a66 100%
+);
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+h1 {
+    color: #ffffff;
+
+}
+
+h2 {
+    color: #ffffff;
+    margin: 0 auto 1rem auto;
+}
+
+h3 {
+    color: #9fb3c8;
+    font-size: 16px !important;
+    margin-top: 1rem !important;
+}
+
+
+
+nav  {
+    margin: 5rem auto 20rem auto;
+}
+
+
+nav li  {
+    color: #ffffff;
+    opacity: 0.6;
+    transition: opacity 0.3s ease;
+}
+
+
+nav li span:hover, nav li:hover {
+    opacity: 1;
+}
+
+
+#links a img {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+    opacity: 0.5;
+    transition: opacity 0.3s ease;
+}
+
+#links a img:hover {
+    opacity: 1;
+}
+
+
+
+#about {
+    color: #9fb3c8;
+    font-size: 16px !important;
+    padding: 2rem 0 2rem 1.5rem;
+    line-height: 1.5;
+    margin-bottom: 6rem;
+}
+
+
+#problems, #projects, #career {
+    color: #9fb3c8;
+    font-size: 16px !important;
+    padding: 2rem 0 2rem 1.5rem;
+    line-height: 1.5;
+    margin-bottom: 8rem;
+}
+
+
+
+
+
+
+#projects button {
+  
+    border-radius: 9999px;
+    font-size: 12px;
+    padding: 5px 10px;
+    
+}
+
+
+
+
+.concepts button, .projects button {
+  
+    background-color: #9fb3c8 !important;
+    color: #155652 !important;
+}
+
+
+.concepts button:hover, .projects button:hover {
+   
+    background-color: #155652 !important;
+    color: #9fb3c8 !important;
+}
+
+
+#problems div a, #projects div a, #career div a {
+    opacity: 0.7;
+}
+
+#problems div a:hover, #projects div a:hover, #career div a:hover {
+    opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* the projects page css */
+
+
+
+.projects tbody tr td:nth-of-type(1), tbody tr td:nth-of-type(4) {
+    color: #9fb3c8;
+}
+
+.projects tbody tr td a {
+    transition: color 0.3s ease;
+}
+
+.projects tbody tr td a:hover {
+    color: #32a8a0;
+}
+
+
+
+
+
+/* the challenges page css */
+
+
+.challenges tbody tr td:nth-of-type(1), tbody tr td:nth-of-type(4) {
+    color: #9fb3c8;
+}
+
+.challenges tbody tr td a {
+    transition: color 0.3s ease;
+}
+
+.challenges tbody tr td a:hover {
+    color: #32a8a0;
+}
+
+
+
+
+  

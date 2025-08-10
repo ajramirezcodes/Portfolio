@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link rel="stylesheet" href="styles.css"/>
+        <title>Personal Portfolio</title>
+    </head>
+    <body>
+          <div id="cursor-glow" class="fixed top-0 left-0 w-full h-full pointer-events-none z-0 transition-all duration-75"></div>
+    <div class="md:block lg:flex lg:gap-x-16">
+        <div class="intro mt-4 ml-4 lg:ml-[calc(25%-10rem)] lg:w-1/3 lg:h-fit lg:sticky lg:top-16 lg:p-4">
+            <h1 class="text-[40px] md:text-[48px] mb-1 whitespace-nowrap">Andrew Ramirez</h1>
+            <h2 class="text-[18px] md:text-[22px] whitespace-nowrap">Front End Engineer</h2>
+            <h3 class="lg:text-base max-w-md whitespace-nowrap">Building clean, responsive apps for user experience.<br>I love turning ideas into smooth, usable interfaces.</h3>
+            <nav class="hidden lg:block">
+                <ul class="lg:space-y-5">
+                    <li  class="flex items-center gap-5 group cursor-pointer">
+                        <div class="w-10 h-px bg-slate-300 transition-all duration-200 group-hover:w-20"></div>
+                        <span><a href="#about">About Me<a></span>
+                    </li>
+                    <li class="flex items-center gap-5 group cursor-pointer">
+                        <div class="w-10 h-px bg-slate-300 transition-all duration-200 group-hover:w-20"></div>
+                        <span><a href="#career">Career Path</a></span>
+                    </li>
+                    <li class="flex items-center gap-5 group cursor-pointer">
+                        <div class="w-10 h-px bg-slate-300 transition-all duration-200 group-hover:w-20"></div>
+                        <span><a href="#projects">My Projects</a></span>
+                    </li>
+                    <li class="flex items-center gap-5 group cursor-pointer">
+                        <div class="w-10 h-px bg-slate-300 transition-all duration-200 group-hover:w-20"></div>
+                        <span><a href="#problems">Technical Challenges</a></span>
+                    </li>
+                </ul>
+            </nav>
+            <div id="links" class="lg:mt-0 mt-[2rem] flex gap-4">
+                <a href="https://github.com/ajramirezcodes" target="_blank"><img src="https://img.icons8.com/?size=100&id=ARy6tFUfwclb&format=png&color=ffffff"/></a>
+                <a href="mailto:ajramirez111@gmail.com" target="_blank"><img src="https://img.icons8.com/?size=100&id=86875&format=png&color=ffffff"/></a>
+                <a href=href="https://www.linkedin.com/in/andrew-ramirez-268ab1150/" target="_blank"><img src="https://img.icons8.com/?size=100&id=8808&format=png&color=ffffff"/></a>
+                <a href="uploads/Resume.pdf" target="_blank"><img src="https://img.icons8.com/?size=100&id=23882&format=png&color=ffffff"/></a>
+            </div>
+        </div>
+     <div class="lg:w-2/3 lg:top-16 lg:p-6 lg:overflow-y-auto">
+        <section>
+        <div class="space-y-5" id="about">
+            <h4 class="lg:hidden text-stone-50 font-bold mt-[4rem] mb-[2rem] text-lg">About Me</h4>
+            <p class="items-center max-w-xl">Self taught and highly motivated software developer with a strong foundation in <span class="font-medium text-slate-50">HTML</span>, <span class="font-medium text-slate-50">CSS</span>, <span class="font-medium text-slate-50">Javascript</span>, <span class="font-medium text-slate-50">Tailwind</span>, and <span class="font-medium text-slate-50">React</span>. I build projects focused on usability, interactivity, and clean UI . My career background in data analytics brings a detail-oriented mindset to code. Seeking to leverage both technical and analytical skills in a developer role.</p>
+            <p class="items-center max-w-xl">I'm a former data analyst with four years of experience turning numbers into insights for both a national electronics company and a nonprofit organization in New York. My work focused on inventory, sales, attendance, and profit trends.</p>
+            <p class="items-center max-w-xl">Over time, I realized my passion wasn’t just in interpreting data, but in building tools and interfaces that made that data useful, interactive, and accessible.That curiosity led me into software development, where I now focus on front-end development using <span class="font-medium text-slate-50">HTML</span>, <span class="font-medium text-slate-50">CSS</span>, <span class="font-medium text-slate-50">Javascript</span>, <span class="font-medium text-slate-50">Tailwind</span>, and <span class="font-medium text-slate-50">React</span>. I'm passionate about creating clean, user-friendly experiences that solve real problems—plus I love the challenge of bringing my ideas to life through code.</p>
+        </div>
+        </section>
+
+
+        <section>
+        <div id="career" class="space-y-10">
+            <h4 class="lg:hidden text-stone-50 font-bold mt-[4rem] mb-[2rem] text-lg">Career Path</h4>
+            <div id="career-card" class="career-card space-y-4 transition-all duration-200 lg:p-4 rounded-lg lg:hover:bg-white/10 hover:backdrop-blur-lg hover:shadow-inner max-w-xl">
+                <div class="lg:flex items-start gap-4">
+                <p class="lg:whitespace-nowrap mb-4 text-sm text-blue-400 text-sm italic">Coming Soon</p>
+                    <div class="lg:flex lg:flex-col space-y-4 lg:ml-8">
+                    <h4 class="items-center text-stone-50 font-bold">Front End Engineer - <br class="lg:inline hidden">Your innovative company</h4>
+                    <p class="flex items-center text-sm">I’m continuing to sharpen my JavaScript, HTML, and CSS skills while improving my craft on frameworks like Tailwind and React. I’m actively applying to software developer roles that genuinely excite me, building projects that showcase my passion and growth, contributing to real-world applications, and looking forward to collaborating with a development team that shares my enthusiasm for creating impactful, user-friendly experiences.</p>
+                       
+                    </div>
+                </div>
+            </div>
+            <div id="career-card" class="career-card space-y-4 transition-all duration-200 lg:p-4 rounded-lg lg:hover:bg-white/10 hover:backdrop-blur-lg hover:shadow-inner max-w-xl">
+                <a href="https://archny.org/" target="_blank">
+                <div class="lg:flex items-start gap-7">
+                <p class="whitespace-nowrap mb-4 text-sm text-blue-400 text-sm italic ">Sept. 2021 - <br class="lg:inline hidden">Present</p>
+                    <div class="lg:flex lg:flex-col lg:ml-8 space-y-4">
+                    <h4 class="items-center text-stone-50 font-bold">Data Analyst - <br class="lg:inline hidden">Archdiocese of New York</h4>
+                    <p class="flex items-center text-sm">I analyze financial data trends and maintain organized records to support yearly performance reviews, ensuring accurate and insightful reporting. I communicate technical information clearly and effectively across departments, facilitating informed decision-making. Additionally, I schedule and manage cross-team collaboration to align efforts and support broader organizational goals.</p>
+                    </div>
+                </div>
+                </a>
+            </div>
+            <div id="career-card" class="career-card space-y-4 transition-all duration-200 lg:p-4 rounded-lg lg:hover:bg-white/10 hover:backdrop-blur-lg hover:shadow-inner max-w-xl">
+                <a href="https://www.shineny.com/" target="_blank">
+                <div class="lg:flex items-start gap-7">
+                <p class="whitespace-nowrap mb-4 text-sm text-blue-400 text-sm italic">Mar. 2021 - <br class="lg:inline hidden">Sept. 2023</p>
+                    <div class="lg:flex lg:flex-col lg:ml-8 space-y-4">
+                    <h4 class="items-center text-stone-50 font-bold">Sales/Data Anaylst - <br class="lg:inline hidden">Shine Electronics</h4>
+                    <p class="flex items-center text-sm">I extracted and interpreted sales data to help improve business outcomes by identifying key trends and opportunities. Using Excel, I managed large datasets and generated actionable insights that supported data-driven decision-making. I also built reports that directly influenced purchasing and inventory strategies, contributing to more efficient operations.</p>
+                    </div>
+                </div>
+                </a>
+            </div>
+            <div id="career-card" class="career-card space-y-4 transition-all duration-200 lg:p-4 rounded-lg lg:hover:bg-white/10 hover:backdrop-blur-lg hover:shadow-inner max-w-xl">
+                <a href="https://www.vwu.edu/" target="_blank">
+                <div class="lg:flex items-start gap-7">
+                <p class="whitespace-nowrap mb-4 text-sm text-blue-400 text-sm italic">Aug. 2015 - <br class="lg:inline hidden">May 2019</p>
+                    <div class="lg:flex lg:flex-col lg:ml-8 space-y-4">
+                    <h4 class="items-center text-stone-50 font-bold">Full-Time Student - <br class="lg:inline hidden">Virginia Wesleyan University</h4>
+                    <p class="flex items-center text-sm">I obtained a Bachelor's degree in Business Management from a private institution, where I completed a senior capstone focused on data-driven decision making. Throughout my studies, I gained hands-on experience through multiple internships in Sales, Business Operations, and Marketing, which helped me develop a strong foundation in business strategy and analytical thinking.</p>
+                    </div>
+                </div>
+                </a>
+            </div>
+        </div>
+        </section>
+
+
+        <section>
+        <div id="projects" class="space-y-16 lg:space-y-10">
+            <h4 class="lg:hidden text-stone-50 font-bold mt-[4rem] mb-[2rem] text-lg">My Projects</h4>
+            <div id="project-card" class="project-card space-y-4 transition-all duration-200 lg:p-4 rounded-lg lg:hover:bg-white/10 hover:backdrop-blur-lg hover:shadow-inner max-w-xl">
+                <a href="https://ajramirezcodes.github.io/Hotel-Website/index.html" target="_blank">
+                <div class="space-y-8 lg:space-y-0 lg:flex items-start gap-7">
+                    <img class=" object-cover aspect-video w-[calc(100%-10rem)] h-[10rem] lg:w-[23rem] lg:h-[5rem] mt-[4px] border-solid border-slate-800 border-2 rounded-md" src="https://cdn.pixabay.com/photo/2017/11/24/21/49/bali-2975787_960_720.jpg" alt="pic of hotel page" />
+                    <div class="space-y-4 lg:flex lg:flex-col lg:space-y-2">
+                        <h4 class="lg:mb-0 mb-[1rem] items-center text-stone-50 font-bold">Hotel Website</h4>
+                        <p class="flex items-center text-sm">A hotel website offering an overview with images, room options and pricing, amenities, and services. It also includes clear booking details for easy reservations.</p>
+                        
+                    </div>
+                </div>
+                </a>
+            </div>
+            <div id="project-card" class="project-card space-y-4 transition-all duration-200 lg:p-4 rounded-lg lg:hover:bg-white/10 hover:backdrop-blur-lg hover:shadow-inner max-w-xl">
+                <a href="https://ajramirezcodes.github.io/To-Do-List/" target="_blank">
+                <div class="space-y-8 lg:space-y-0 lg:flex items-start gap-7">
+                    <img class="object-cover aspect-video w-[calc(100%-10rem)] h-[10rem] lg:w-[25rem] lg:h-[5rem] mt-[4px] border-solid border-slate-800 border-2 rounded-md" src="https://cdn.pixabay.com/photo/2018/06/20/07/33/planner-3485976_1280.jpg" />
+                    <div class="space-y-4 lg:flex lg:flex-col lg:space-y-2">
+                        <h4 class="items-center text-stone-50 font-bold">To Do List</h4>
+                        <p class="flex items-center text-sm">A simple and user-friendly To-Do List that helps users stay organized by allowing them to easily add and delete tasks, making daily to-do lists more efficient and streamlined.</p>
+                        
+                    </div>
+                </div>
+                </a>
+            </div>
+            <div id="project-card" class="project-card space-y-4 transition-all duration-200 lg:p-4 rounded-lg lg:hover:bg-white/10 hover:backdrop-blur-lg hover:shadow-inner max-w-xl">
+                <a href="https://ajramirezcodes.github.io/Weather-App/" target="_blank">
+                <div class="space-y-8 lg:space-y-0 lg:flex items-start gap-7">
+                    <img class="object-cover aspect-video w-[calc(100%-10rem)] h-[10rem] lg:w-[20rem] lg:h-[5rem] mt-[4px] border-solid border-slate-800 border-2 rounded-md" src="https://cdn.pixabay.com/photo/2018/05/30/00/24/thunderstorm-3440450_1280.jpg" />
+                    <div class="space-y-4 lg:flex lg:flex-col lg:space-y-2">
+                        <h4 class="items-center text-stone-50 font-bold">Weather App</h4>
+                        <p class="flex items-center text-sm">This application allows users to search for current weather conditions in any city using real-time data from the OpenWeatherMap API.</p>
+                        
+                    </div>
+                </div>
+                </a>
+            </div>
+            <div id="project-card" class="project-card space-y-4 transition-all duration-200 lg:p-4 rounded-lg lg:hover:bg-white/10 hover:backdrop-blur-lg hover:shadow-inner max-w-xl">
+                <a href="https://ajramirezcodes.github.io/Budget-Tracker/" target="_blank">
+                <div class="space-y-8 lg:space-y-0 lg:flex items-start gap-7">
+                    <img class="object-cover aspect-video w-[calc(100%-10rem)] h-[10rem] lg:w-[23rem] lg:h-[5rem] mt-[4px] border-solid border-slate-800 border-2 rounded-md" src="https://cdn.pixabay.com/photo/2016/08/06/17/34/office-1574717_1280.jpg" />
+                    <div class="space-y-4 lg:flex lg:flex-col lg:space-y-2">
+                        <h4 class="items-center text-stone-50 font-bold">Budget Tracker</h4>
+                        <p class="flex items-center text-sm">Users can set a budget, add categories and expenses, and view total spending and remaining balance. Expenses are sortable by category for easy tracking.</p>
+                        
+                    </div>
+                </div>
+                </a>
+            </div>
+             <div id="project-card" class="project-card space-y-4 transition-all duration-200 lg:p-4 rounded-lg lg:hover:bg-white/10 hover:backdrop-blur-lg hover:shadow-inner max-w-xl">
+                <a href="https://ajramirezcodes.github.io/2024-Mens-Olympic-Basketball/" target="_blank">
+                <div class="space-y-8 lg:space-y-0 lg:flex items-start gap-7">
+                    <img class="object-cover aspect-video w-[calc(100%-10rem)] h-[10rem] lg:w-[23rem] lg:h-[5rem] mt-[4px] border-solid border-slate-800 border-2 rounded-md" src="https://cdn.freebiesupply.com/logos/large/2x/usa-basketball-logo-png-transparent.png" />
+                    <div class="space-y-4 lg:flex lg:flex-col lg:space-y-2">
+                        <h4 class="items-center text-stone-50 font-bold">Team USA Basketball</h4>
+                        <p class="flex items-center text-sm">This is a dynamic and interactive player card project for the Team USA Men's Basketball roster. It visually showcases each player's image, stats, and highlights.</p>
+                        
+                    </div>
+                </div>
+                </a>
+            </div>
+                <div class="lg:ml-[1rem] text-lg text-stone-50">
+                    <a href="projects.html">View My Project Archive</a>
+                </div>
+        </div>
+        </section>
+
+        <section>
+        <div id="problems" class="space-y-[8rem]">
+            <h4 class="lg:hidden text-stone-50 font-bold mt-[4rem] text-lg">Technical Challenges</h4>
+            <div id="problem-card" class="problem-card space-y-4 max-w-lg">
+                <div class="space-y-8 lg:space-y-0 lg:flex items-start gap-11">
+                    <video class="hover-video transition-transform duration-500 lg:hover:scale-125 object-cover aspect-video w-[calc(125%-10rem)] h-[15rem] lg:w-[36rem] lg:h-[9rem] mt-[6px] border-solid border-slate-800 border-2 rounded-md" muted playsinline controls>
+                        <source src="https://cdn.pixabay.com/video/2016/05/12/3188-166339073_large.mp4"></source>
+                    </video>
+                    <div class="space-y-4 lg:flex lg:flex-col lg:space-y-1">
+                        <h4 class="items-center text-stone-50 font-bold lg:mt-1 lg:text-sm">Rotate Array</h4>
+                        <p class="flex items-center text-sm">
+                            Given an array, rotate the elements to the right by k steps. The rotation should be done in place without creating a new array.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div id="problem-card" class="problem-card space-y-4 max-w-lg">
+                <div class="space-y-8 lg:space-y-0 lg:flex items-start gap-11">
+                    <video class="hover-video transition-transform duration-500 lg:hover:scale-125 object-cover aspect-video w-[calc(125%-10rem)] h-[15rem] lg:w-[36rem] lg:h-[9rem] mt-[6px] border-solid border-slate-800 border-2 rounded-md" muted playsinline controls>
+                        <source src="https://cdn.pixabay.com/video/2016/05/12/3188-166339073_large.mp4"></source>
+                    </video>
+                    <div class="space-y-4 lg:flex lg:flex-col lg:space-y-1">
+                        <h4 class="items-center text-stone-50 font-bold lg:mt-1 lg:text-sm">Longest Consecutive</h4>
+                        <p class="flex items-center text-sm">
+                            Write a function that takes an unsorted array of numbers and returns the length of the longest consecutive sequence (numbers that appear in order without gaps).
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div id="problem-card" class="problem-card space-y-4 max-w-lg">
+                <div class="space-y-8 lg:space-y-0 lg:flex items-start gap-11">
+                    <video class="hover-video transition-transform duration-500 lg:hover:scale-125 object-cover aspect-video w-[calc(125%-10rem)] h-[15rem] lg:w-[36rem] lg:h-[9rem] mt-[6px] border-solid border-slate-800 border-2 rounded-md" muted playsinline controls>
+                        <source src="https://cdn.pixabay.com/video/2016/05/12/3188-166339073_large.mp4"></source>
+                    </video>
+                    <div class="space-y-4 lg:flex lg:flex-col lg:space-y-1">
+                        <h4 class="items-center text-stone-50 font-bold lg:mt-1 lg:text-sm">Group Anagrams</h4>
+                        <p class="flex items-center text-sm">
+                            Write a function that takes an array of strings and groups the anagrams together. You should return a list of lists, where each sublist contains anagrams of each other.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div id="problem-card" class="problem-card space-y-4 max-w-lg">
+                <div class="space-y-8 lg:space-y-0 lg:flex items-start gap-11">
+                    <video class="hover-video transition-transform duration-500 lg:hover:scale-125 object-cover aspect-video w-[calc(125%-10rem)] h-[15rem] lg:w-[36rem] lg:h-[9rem] mt-[6px] border-solid border-slate-800 border-2 rounded-md" muted playsinline controls>
+                        <source src="https://cdn.pixabay.com/video/2016/05/12/3188-166339073_large.mp4"></source>
+                    </video>
+                    <div class="space-y-4 lg:flex lg:flex-col lg:space-y-1">
+                        <h4 class="items-center text-stone-50 font-bold lg:mt-1 lg:text-sm">Longest Common Prefix</h4>
+                        <p class="flex items-center text-sm">
+                            Given an array of strings, return the longest common prefix shared among all strings.
+                            If there is no common prefix, return an empty string
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div id="problem-card" class="problem-card space-y-4 max-w-lg">
+                <div class="space-y-8 lg:space-y-0 lg:flex items-start gap-11">
+                    <video class="hover-video transition-transform duration-500 lg:hover:scale-125 object-cover aspect-video w-[calc(125%-10rem)] h-[15rem] lg:w-[36rem] lg:h-[9rem] mt-[6px] border-solid border-slate-800 border-2 rounded-md" muted playsinline controls>
+                        <source src="https://cdn.pixabay.com/video/2016/05/12/3188-166339073_large.mp4"></source>
+                    </video>
+                    <div class="space-y-4 lg:flex lg:flex-col lg:space-y-1">
+                        <h4 class="items-center text-stone-50 font-bold lg:mt-1 lg:text-sm">Find Missing Letter</h4>
+                        <p class="flex items-center text-sm">
+                            Write a function that takes an array of consecutive (increasing) letters and returns the missing letter in the sequence.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="lg:ml-[1rem] text-lg text-stone-50">
+                    <a href="challenges.html">View My Challenge Archive</a>
+                </div>
+        </div>
+    </section>
+     </div>
+    </div>
+        <script src="script.js"></script>
+    </body>
+</html>
+
+
+
