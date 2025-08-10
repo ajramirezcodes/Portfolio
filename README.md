@@ -23,3 +23,9 @@ This responsive portfolio site is built with semantic HTML, styled primarily usi
 - **Tailwind CSS**: Utility-first CSS framework for styling and layout
 - **JavaScript**: For interactive cursor glow, blur effects on hover, and video play/pause on hover
 - **Responsive Design**: Works well on mobile, tablet, and desktop
+
+
+---
+
+View the Live Portfolio
+You can explore my portfolio at: https://ajramirezcodes.github.io/Portfolio/
